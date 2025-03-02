@@ -358,7 +358,6 @@ body {
 .site-footer {
   background: var(--light-bg);
   padding: 1rem 2rem;
-  border-top: 1px solid #ddd;
   text-align: center;
 }
 
