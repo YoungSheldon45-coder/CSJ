@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Journalism Website</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="logo">
+        <img src="images/Logo.jpg" alt="" />
+        <a href="#">CSJ Malawi</a>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Human Rights</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- Hamburger Menu for Mobile -->
+      <div class="hamburger" id="hamburgerBtn">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+
+    <!-- HERO / FEATURED SECTION -->
+    <section class="hero">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <li
+            type="li"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            type="li"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            type="li"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+          ></li>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/hero1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h1>Enact Termination of Pregnancy Bill</h1>
+              <p>Reducing maternal morbidity and mortality in Malawi</p>
+              <a href="#" class="btn btn-success">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/hero2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h1>CSJ Malawi challenges dramatists</h1>
+              <p>Aims to popularise safe motherhood policies and laws</p>
+              <a href="#" class="btn btn-success">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/hero3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h1>Activists bemoan pregnancy for the poor</h1>
+              <p>Pregnancy is a death sentence to the poor people</p>
+              <a href="#" class="btn btn-success">Read More</a>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          type="a"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          type="a"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- FEATURED ARTICLES -->
+      <section class="featured-articles">
+        <article class="featured-card">
+          <div class="card-img-div">
+            <img src="./images/Article1.jpg" alt="Article 1" />
+          </div>
+          <div class="featured-text">
+            <h2>Rape and Deaths from Unsafe Abortion</h2>
+            <p>Highlighting Malawi's horrifying injustices.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </article>
+        <article class="featured-card">
+          <div class="card-img-div">
+            <img src="./images/Article2.jpg" alt="Article 2" />
+          </div>
+          <div class="featured-text">
+            <h2>Pregnancy is a Death Sentence to the Poor</h2>
+            <p>Analyzing the crisis faced by Malawian women.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </article>
+      </section>
+
+      <!-- ARTICLES + SIDEBAR -->
+      <section class="content-wrapper">
+        <!-- ARTICLES GRID -->
+        <section class="articles-grid">
+          <!-- Article Card -->
+          <article class="article-card">
+            <img src="images/gridArticle1.jpg" alt="Article" />
+            <div class="card-content">
+              <h3>Unsafe Abortion: The Silent Driver of Maternal Mortality</h3>
+              <p>In-depth analysis of the healthcare system challenges...</p>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <!-- Repeat for more articles -->
+          <article class="article-card">
+            <img src="images/gridArticle2.jpg" alt="Article" />
+            <div class="card-content">
+              <h3>
+                CSJ Malawi Challenges Dramatists to Popularize Safe Motherhood
+              </h3>
+              <p>Promoting awareness through art and community engagement...</p>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <article class="article-card">
+            <img src="images/gridArticle3.jpg" alt="Article" />
+            <div class="card-content">
+              <h3>Malawi's Journey to Healthcare Reforms</h3>
+              <p>
+                What policymakers are doing to address maternal mortality...
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <article class="article-card">
+            <img src="images/gridArticle4.jpg" alt="Article" />
+            <div class="card-content">
+              <h3>Enactment of New Bill Sparks Debate</h3>
+              <p>
+                Expert opinions and public reactions on the new legislation...
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+        </section>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <div class="widget">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Environment</a></li>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">General</a></li>
+              <li><a href="#">Health</a></li>
+              <li><a href="#">Human Rights</a></li>
+            </ul>
+          </div>
+
+          <div class="widget">
+            <h4>Follow Us</h4>
+            <!-- Replace with real social links or a Facebook widget -->
+            <ul class="social-links">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+
+          <div class="widget">
+            <h4>Newsletter</h4>
+            <p>Subscribe for our latest updates.</p>
+            <form>
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+      <p>&copy; 2025 Centre for Solutions Journalism - All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to your JS file -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
